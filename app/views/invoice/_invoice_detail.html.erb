@@ -1,0 +1,30 @@
+<div id="invoice_detail" >
+  <table width="50%" border="1px">
+    <tr>
+      <th><%= sortable "invoice_number", "Invoice Number" %></th>
+      <th><%= sortable "bill_company_name", "Bill Company Name" %></th>
+      <th><%= sortable "invoice_date", "Invoice Date" %></th>
+      <th><%= sortable "status", "Status" %></th>
+      <th><%= sortable "total", "Total" %></th>
+
+    </tr>
+    <% @page_results.each do|item|  %>
+
+        <tr>
+          <td><%= item.invoice_number  %> </td>
+          <td width="20px"> <%= item.bill_company_name%> </td>
+          <td><%= item.invoice_date  %> </td>
+          <td><%= item.status  %> </td>
+          <td><%= item.total  %> </td>
+          <td width="10px"><a onclick="window.showModalDialog(this.href);return false;" href="../pdf/index/<%= item.did%>" >View PDF</a></td>
+        </tr>
+
+    <%  end
+    %>
+
+  </table>
+  <%= hidden_field_tag :direction, params[:direction] %>
+  <%= hidden_field_tag :sort, params[:sort] %>
+  <%= will_paginate @page_results%>
+  <a href="./">Back</a>
+</div>

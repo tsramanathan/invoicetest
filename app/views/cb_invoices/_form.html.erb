@@ -1,0 +1,41 @@
+<%= form_for(@cb_invoice) do |f| %>
+  <% if @cb_invoice.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@cb_invoice.errors.count, "error") %> prohibited this cb_invoice from being saved:</h2>
+
+      <ul>
+      <% @cb_invoice.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :did %><br />
+    <%= f.text_field :did %>
+  </div>
+  <div class="field">
+    <%= f.label :invoice_number %><br />
+    <%= f.text_field :invoice_number %>
+  </div>
+  <div class="field">
+    <%= f.label :bill_company_name %><br />
+    <%= f.text_field :bill_company_name %>
+  </div>
+  <div class="field">
+    <%= f.label :invoice_date %><br />
+    <%= f.date_select :invoice_date %>
+  </div>
+  <div class="field">
+    <%= f.label :status %><br />
+    <%= f.text_field :status %>
+  </div>
+  <div class="field">
+    <%= f.label :total %><br />
+    <%= f.text_field :total %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

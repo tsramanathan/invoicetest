@@ -1,0 +1,7 @@
+#Development Configuration
+WEBSVC_URL_DEV: 'https://cafinexwstest.careerbuilder.com/CAFinancialExternalWS'
+
+#Production Configuration
+WEBSVC_URL_PROD: 'https://cafinexws.careerbuilder.com/CAFinancialExternalWS'
+
+

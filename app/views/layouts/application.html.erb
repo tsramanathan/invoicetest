@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Finance</title>
+
+
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+  <%= image_tag("cb.png") %>
+
+</head>
+<body class="<%= controller.controller_name %>">
+
+<!-- START_HIGHLIGHT -->
+<div id="banner">
+
+  <%=   'Invoice Listing' %><!-- <label id="code.depot.e.title"/> -->
+</div>
+<div id="columns">
+  <div id="side">
+
+
+
+  </div>
+  <div id="main">
+    <!-- END_HIGHLIGHT -->
+    <%= yield %><!-- <label id="code.depot.e.include"/> -->
+    <!-- START_HIGHLIGHT -->
+  </div>
+</div>
+<!-- END_HIGHLIGHT -->
+</body>
+</html>
+

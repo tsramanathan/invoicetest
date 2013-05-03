@@ -1,0 +1,33 @@
+<h1>Listing cb_invoices</h1>
+
+<table>
+  <tr>
+    <th>Did</th>
+    <th>Invoice number</th>
+    <th>Bill company name</th>
+    <th>Invoice date</th>
+    <th>Status</th>
+    <th>Total</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @cb_invoices.each do |cb_invoice| %>
+  <tr>
+    <td><%= cb_invoice.did %></td>
+    <td><%= cb_invoice.invoice_number %></td>
+    <td><%= cb_invoice.bill_company_name %></td>
+    <td><%= cb_invoice.invoice_date %></td>
+    <td><%= cb_invoice.status %></td>
+    <td><%= cb_invoice.total %></td>
+    <td><%= link_to 'Show', cb_invoice %></td>
+    <td><%= link_to 'Edit', edit_cb_invoice_path(cb_invoice) %></td>
+    <td><%= link_to 'Destroy', cb_invoice, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Cb invoice', new_cb_invoice_path %>

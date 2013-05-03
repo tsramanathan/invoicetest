@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Did:</b>
+  <%= @cb_invoice.did %>
+</p>
+
+<p>
+  <b>Invoice number:</b>
+  <%= @cb_invoice.invoice_number %>
+</p>
+
+<p>
+  <b>Bill company name:</b>
+  <%= @cb_invoice.bill_company_name %>
+</p>
+
+<p>
+  <b>Invoice date:</b>
+  <%= @cb_invoice.invoice_date %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @cb_invoice.status %>
+</p>
+
+<p>
+  <b>Total:</b>
+  <%= @cb_invoice.total %>
+</p>
+
+
+<%= link_to 'Edit', edit_cb_invoice_path(@cb_invoice) %> |
+<%= link_to 'Back', cb_invoices_path %>
