@@ -1,5 +1,5 @@
 #Development Configuration
-WEBSVC_URL_DEV: 'https://cafinexwstest.careerbuilder.com/CAFinancialExternalWS'
+WEBSVC_URL_DEV: 'https://cafexwstest.careerbuilder.com/CAFinancialExternalWS'
 
 #Production Configuration
 WEBSVC_URL_PROD: 'https://cafinexws.careerbuilder.com/CAFinancialExternalWS'

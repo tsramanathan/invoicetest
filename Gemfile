@@ -31,6 +31,8 @@ gem 'rspec-rails'
 gem 'savon' ,:git => 'git://github.com/savonrb/savon.git'
 gem 'will_paginate'
 gem 'jquery-rails'
+gem 'ruby-saml'
+gem 'XMLCanonicalizer'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

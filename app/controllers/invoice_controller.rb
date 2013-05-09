@@ -15,7 +15,8 @@ class InvoiceController < ApplicationController
     #@invoice_vm = session[:invoice_vm]
 
    #@page_results= CbInvoice.order(params[:sort])
-   @page_results = CbInvoice.order(sort_column + " " + sort_direction).paginate(per_page: 10, page: params[:page])
+    cbinvoice = session[:cbinvoice]
+   @page_results = cbinvoice.order(sort_column + " " + sort_direction).paginate(per_page: 10, page: params[:page])
     respond_to do |format|
       format.html
     end
@@ -37,7 +38,7 @@ class InvoiceController < ApplicationController
     @invoice_vm = get_invoices(@results)#.paginate(per_page: 10, page: params[:page])
    # session[:invoice_vm]  = @invoice_vm
    # @page_results = @invoice_vm.invoices.paginate(per_page: 10, page: params[:page])
-
+    session[:cbinvoice] = CbInvoice
     @page_results = CbInvoice.paginate(per_page: 10, page: params[:page])
     respond_to do |format|
       format.html {render :action => 'show', :invoice_vm => @invoice_vm}

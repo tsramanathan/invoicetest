@@ -1,4 +1,15 @@
 Invoice::Application.routes.draw do
+
+  resources :saml
+
+  get "saml/index"
+
+  get "saml/consume"
+
+  get "saml/complete"
+
+  get "saml/fail"
+
   resources :cb_invoices
 
 
@@ -63,4 +74,6 @@ Invoice::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
+  match ':controller/:action/:id'
+  match ':controller/:action/:id.:format'
 end
