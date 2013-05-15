@@ -8,7 +8,7 @@ class InvoiceManager
 
   def get_invoice_by_accountdid(accountdid,status)
 
-    puts 'Web svc URL:'@web_svc_url.to_s
+    puts 'Web svc URL:'+@web_svc_url.to_s
 
 
     options = {}
