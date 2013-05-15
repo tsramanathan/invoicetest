@@ -2,14 +2,6 @@ Invoice::Application.routes.draw do
 
   resources :saml
 
-  get "saml/index"
-
-  get "saml/consume"
-
-  get "saml/complete"
-
-  get "saml/fail"
-
   resources :cb_invoices
 
 
@@ -18,6 +10,7 @@ Invoice::Application.routes.draw do
   get "invoice/show"
   match 'pdf/index/:id' => 'pdf#index'
   post "invoice/get_invoices_by_accountdid"
+  post "saml/consume"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

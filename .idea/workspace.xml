@@ -2,21 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92cb313b-d482-4468-b767-12c0d3ec45c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/invoice.iml" afterPath="$PROJECT_DIR$/.idea/invoice.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onelogin/ruby-saml/authrequest.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onelogin/ruby-saml/logging.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onelogin/ruby-saml/logoutrequest.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onelogin/ruby-saml/logoutresponse.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onelogin/ruby-saml/metadata.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onelogin/ruby-saml/response.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onelogin/ruby-saml/settings.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onelogin/ruby-saml/validation_error.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onelogin/ruby-saml/version.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/ruby-saml.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/schemas/saml20assertion_schema.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/schemas/saml20protocol_schema.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/schemas/xenc_schema.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/schemas/xmldsig_schema.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xml_security.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/account.rb" afterPath="$PROJECT_DIR$/app/models/account.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/invoice_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/invoice_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/local_env.yml" afterPath="$PROJECT_DIR$/config/local_env.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/saml_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/saml_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="invoice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/invoice_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367595506110" ignored="false" />
+    <file path="/invoice_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368620437825" ignored="false" />
     <file path="/index.html.erb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367498436187" ignored="false" />
-    <file path="/routes.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368031539186" ignored="false" />
-    <file path="/fragment.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368031854981" ignored="false" />
-    <file path="/Dummy.txt" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368030808749" ignored="false" />
+    <file path="/routes.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368205187883" ignored="false" />
+    <file path="/fragment.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368629788885" ignored="false" />
+    <file path="/Dummy.txt" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368620533590" ignored="false" />
     <file path="/invoice_manager.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367587779475" ignored="false" />
     <file path="/invoice_vm.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366033360638" ignored="false" />
     <file path="/invoice_helper.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366142436559" ignored="false" />
@@ -40,17 +56,17 @@
     <file path="/application.css.scss" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366203581466" ignored="false" />
     <file path="/application.css" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366204230774" ignored="false" />
     <file path="/application.js" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366288083975" ignored="false" />
-    <file path="/application_helper.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366311571221" ignored="false" />
+    <file path="/application_helper.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368451187823" ignored="false" />
     <file path="$PROJECT_DIR$/../ruby-saml-example-master/Gemfile" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366917523431" ignored="false" />
     <file path="$PROJECT_DIR$/../ruby-saml-example-master/Gemfile.lock" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366917528942" ignored="false" />
-    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/rails-2.3.5/lib/rails/gem_dependency.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366919734382" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/rails-2.3.5/lib/rails/gem_dependency.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368203927615" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/rails-2.3.5/lib/rails/vendor_gem_source_index.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366917587457" ignored="false" />
     <file path="$USER_HOME$/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366919479734" ignored="false" />
     <file path="$PROJECT_DIR$/../ruby-saml-rails3-example-master/Gemfile" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366987886063" ignored="false" />
     <file path="$PROJECT_DIR$/../ruby-saml-rails3-example-master/app/models/admin/account.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366989458338" ignored="false" />
-    <file path="/account.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368031651003" ignored="false" />
+    <file path="/account.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368623682875" ignored="false" />
     <file path="$PROJECT_DIR$/../ruby-saml-rails3-example-master/app/controllers/saml_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367002643488" ignored="false" />
-    <file path="/saml_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367002643488" ignored="false" />
+    <file path="/saml_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368562880099" ignored="false" />
     <file path="db-console:/8557d20b/41eb3c15-ad11-44c0-b323-70b19bc29630/" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366989632003" ignored="false" />
     <file path="/Rails ruby-saml-rails3-example-master: development" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366989612830" ignored="false" />
     <file path="$PROJECT_DIR$/../ruby-saml-rails3-example-master/app/controllers/admin/base_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366999707627" ignored="false" />
@@ -65,9 +81,15 @@
     <file path="/env_vars_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367498366797" ignored="false" />
     <file path="$PROJECT_DIR$/../EnvVarsTest/config/routes.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367498493807" ignored="false" />
     <file path="/local_env.yml" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367586469953" ignored="false" />
-    <file path="/application_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367590770352" ignored="false" />
+    <file path="/application_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368622731104" ignored="false" />
     <file path="$PROJECT_DIR$/../Nexus/config/environments/production.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367861476026" ignored="false" />
     <file path="$PROJECT_DIR$/../EnvVarsTest/app/controllers/application_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367865326872" ignored="false" />
+    <file path="/document.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368206606912" ignored="false" />
+    <file path="/response.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368214646333" ignored="false" />
+    <file path="/xml_security.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368212891708" ignored="false" />
+    <file path="$PROJECT_DIR$/../depot_t/app/helpers/application_helper.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368451191403" ignored="false" />
+    <file path="$PROJECT_DIR$/../ProductsListing/app/controllers/products_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368552417791" ignored="false" />
+    <file path="/products_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368552390533" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +98,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/invoice@test_functionals.coverage" NAME="test:functionals Coverage Results" MODIFIED="1365778279290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/invoice@test.coverage" NAME="test Coverage Results" MODIFIED="1365788287320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/invoice@test_functionals.coverage" NAME="test:functionals Coverage Results" MODIFIED="1365778279290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/invoice@test_units.coverage" NAME="test:units Coverage Results" MODIFIED="1365768665982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -100,61 +122,16 @@
       <file leaf-file-name="invoice_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/invoice_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="39" selection-start="3221" selection-end="3316" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ruby-saml.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/ruby-saml.rb">
+      <file leaf-file-name="local_env.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/local_env.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130508163332_create_accounts.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130508163332_create_accounts.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="invoice_manager.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/invoice_manager.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.66080403">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/account.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="saml_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/saml_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authrequest.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/onelogin/ruby-saml/authrequest.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,7 +140,25 @@
       <file leaf-file-name="instrumentation.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saml_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/saml_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/account.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="35" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -172,16 +167,34 @@
       <file leaf-file-name="implicit_render.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/implicit_render.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="response.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/onelogin/ruby-saml/response.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="130" selection-start="74" selection-end="75" vertical-scroll-proportion="0.0">
+            <state line="25" column="46" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rescue.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/rescue.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="10" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="140" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,21 +223,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/lib/tasks/db_schema_migrations.rake" />
         <option value="$PROJECT_DIR$/app/views/invoice/_invoice_detail.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/invoice_manager.rb" />
         <option value="$PROJECT_DIR$/app/models/pdf_manager.rb" />
         <option value="$PROJECT_DIR$/app/controllers/pdf_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/invoice_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/local_env.yml" />
-        <option value="$PROJECT_DIR$/app/controllers/saml_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$USER_HOME$/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/rexml/document.rb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/xml_security.rb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/onelogin/ruby-saml/response.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/saml_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/invoice_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/account.rb" />
       </list>
     </option>
@@ -268,7 +281,6 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,6 +291,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invoice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-saml (v0.7.2, RVM: ruby-1.9.3-p327) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -332,6 +362,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -364,6 +398,20 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invoice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invoice_prototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -371,21 +419,22 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../depot_t" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ruby-saml-example-master" />
     <property name="FullScreen" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
   </component>
   <component name="RestClientSettings">
     <option name="LAST_HOST" value="https://cafinexwstest.careerbuilder.com" />
@@ -731,6 +780,8 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <method />
     </configuration>
     <configuration default="false" name="Development: invoice" type="RailsRunConfigurationType" factoryName="Rails">
@@ -829,27 +880,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="811" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.715942" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1779053" sideWeight="0.6479077" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35209236" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21807748" sideWeight="0.61904764" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3809524" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36940837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33477634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32611832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4273743" sideWeight="0.99928266" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23871906" sideWeight="0.5362319" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4273743" sideWeight="0.99928266" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -936,14 +987,29 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/models/invoice_manager.rb</url>
-          <line>18</line>
-          <option name="timeStamp" value="46" />
+          <url>file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/onelogin/ruby-saml/response.rb</url>
+          <line>23</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/controllers/saml_controller.rb</url>
-          <line>6</line>
-          <option name="timeStamp" value="48" />
+          <line>12</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/invoice_controller.rb</url>
+          <line>15</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/invoice_controller.rb</url>
+          <line>10</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/saml_controller.rb</url>
+          <line>5</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/assets/javascripts/application.js</url>
@@ -951,121 +1017,114 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="49" />
+      <option name="time" value="63" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/pdf/index.html.erb">
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/rexml/parsers/treeparser.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="33" column="0" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="0" selection-start="4448" selection-end="4448" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/hash_with_indifferent_access.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="27" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
+        <state line="33" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/onelogin/ruby-saml/response.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/onelogin/ruby-saml/authrequest.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="15" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+        <state line="31" column="0" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/onelogin/ruby-saml/settings.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/local_env.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="144" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pdf_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#514#627#0" expanded="false" />
-            <element signature="e#645#752#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130508163332_create_accounts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/invoice_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="39" selection-start="3221" selection-end="3316" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/onelogin/ruby-saml/authrequest.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ruby-saml.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="140" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/implicit_render.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/callbacks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="425" column="0" selection-start="14152" selection-end="14152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/account.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="130" selection-start="74" selection-end="75" vertical-scroll-proportion="0.0">
+        <state line="7" column="35" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/saml_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/invoice_manager.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/rescue.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.66080403">
+        <state line="25" column="10" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/onelogin/ruby-saml/settings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="137" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/onelogin/ruby-saml/response.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="46" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/invoice_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/local_env.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

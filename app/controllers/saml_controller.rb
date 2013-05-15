@@ -9,6 +9,7 @@ class SamlController < ApplicationController
   end
 
   def consume
+
     response = Onelogin::Saml::Response.new(params[:SAMLResponse])
 
     # insert identity provider discovery logic here
@@ -18,13 +19,14 @@ class SamlController < ApplicationController
 
     if response.is_valid?
       session[:userid] = response.name_id
-      redirect_to :action => :complete
+      redirect_to '/invoice'
     else
       redirect_to :action => :fail
     end
   end
 
   def complete
+    redirect_to '/invoice'
   end
 
   def fail
