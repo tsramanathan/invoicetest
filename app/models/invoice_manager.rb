@@ -8,7 +8,8 @@ class InvoiceManager
 
   def get_invoice_by_accountdid(accountdid,status)
 
-    puts @web_svc_url
+    puts 'Web svc URL:'@web_svc_url.to_s
+
 
     options = {}
     if status == 'Open'
@@ -20,7 +21,8 @@ class InvoiceManager
     end
     res = self.class.get(@web_svc_url+'/api/invoices?AccountDID='+accountdid+'&Status='+invStatus, options)
 
-    puts res
+    puts 'Response:' +res.to_s
+
 
     res
 

@@ -11,7 +11,7 @@
     <file path="/routes.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368205187883" ignored="false" />
     <file path="/fragment.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368629788885" ignored="false" />
     <file path="/Dummy.txt" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368620533590" ignored="false" />
-    <file path="/invoice_manager.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368646019589" ignored="false" />
+    <file path="/invoice_manager.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368646711981" ignored="false" />
     <file path="/invoice_vm.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366033360638" ignored="false" />
     <file path="/invoice_helper.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366142436559" ignored="false" />
     <file path="/show.html.erb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366287766155" ignored="false" />
@@ -109,7 +109,16 @@
       <file leaf-file-name="invoice_manager.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/invoice_manager.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="4" selection-start="505" selection-end="505" vertical-scroll-proportion="0.9206349">
+            <state line="24" column="4" selection-start="534" selection-end="534" vertical-scroll-proportion="0.9206349">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kernel.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="402" column="8" selection-start="15740" selection-end="15740" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,15 +167,6 @@
         <entry file="file://$PROJECT_DIR$/app/models/account.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="35" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="implicit_render.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/implicit_render.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1011,11 +1011,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/hash_with_indifferent_access.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
@@ -1093,6 +1088,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/local_env.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="97" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="402" column="8" selection-start="15740" selection-end="15740" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pdf_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="18" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
@@ -1100,13 +1109,6 @@
             <element signature="e#514#627#0" expanded="false" />
             <element signature="e#645#752#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/local_env.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="97" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,7 +1121,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/invoice_manager.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="505" selection-end="505" vertical-scroll-proportion="0.9206349">
+        <state line="24" column="4" selection-start="534" selection-end="534" vertical-scroll-proportion="0.9206349">
           <folding />
         </state>
       </provider>
