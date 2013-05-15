@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92cb313b-d482-4468-b767-12c0d3ec45c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/local_env.yml" afterPath="$PROJECT_DIR$/config/local_env.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/invoice_manager.rb" afterPath="$PROJECT_DIR$/app/models/invoice_manager.rb" />
     </list>
     <ignored path="invoice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,7 +11,7 @@
     <file path="/routes.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368205187883" ignored="false" />
     <file path="/fragment.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368629788885" ignored="false" />
     <file path="/Dummy.txt" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368620533590" ignored="false" />
-    <file path="/invoice_manager.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367587779475" ignored="false" />
+    <file path="/invoice_manager.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368646019589" ignored="false" />
     <file path="/invoice_vm.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366033360638" ignored="false" />
     <file path="/invoice_helper.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366142436559" ignored="false" />
     <file path="/show.html.erb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366287766155" ignored="false" />
@@ -100,7 +100,16 @@
       <file leaf-file-name="invoice_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/invoice_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="100" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+            <state line="44" column="26" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invoice_manager.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/invoice_manager.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="4" selection-start="505" selection-end="505" vertical-scroll-proportion="0.9206349">
               <folding />
             </state>
           </provider>
@@ -118,10 +127,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local_env.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="local_env.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/local_env.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="20" selection-start="195" selection-end="195" vertical-scroll-proportion="0.23809524">
+            <state line="7" column="97" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -181,15 +190,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="140" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -216,7 +216,6 @@
         <option value="$PROJECT_DIR$/app/views/invoice/_invoice_detail.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/models/invoice_manager.rb" />
         <option value="$PROJECT_DIR$/app/models/pdf_manager.rb" />
         <option value="$PROJECT_DIR$/app/controllers/pdf_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -229,6 +228,7 @@
         <option value="$PROJECT_DIR$/app/models/account.rb" />
         <option value="$PROJECT_DIR$/app/controllers/invoice_controller.rb" />
         <option value="$PROJECT_DIR$/config/local_env.yml" />
+        <option value="$PROJECT_DIR$/app/models/invoice_manager.rb" />
       </list>
     </option>
   </component>
@@ -1011,13 +1011,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="0" selection-start="4448" selection-end="4448" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/hash_with_indifferent_access.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" />
@@ -1110,16 +1103,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/invoice_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/local_env.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="100" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+        <state line="7" column="97" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/local_env.yml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/invoice_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="195" selection-end="195" vertical-scroll-proportion="0.23809524">
+        <state line="44" column="26" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/invoice_manager.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="4" selection-start="505" selection-end="505" vertical-scroll-proportion="0.9206349">
           <folding />
         </state>
       </provider>

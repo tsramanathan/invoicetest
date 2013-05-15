@@ -8,6 +8,8 @@ class InvoiceManager
 
   def get_invoice_by_accountdid(accountdid,status)
 
+    puts @web_svc_url
+
     options = {}
     if status == 'Open'
        invStatus = 'OPN'
@@ -17,5 +19,10 @@ class InvoiceManager
       invStatus = 'ALL'
     end
     res = self.class.get(@web_svc_url+'/api/invoices?AccountDID='+accountdid+'&Status='+invStatus, options)
+
+    puts res
+
+    res
+
   end
 end
