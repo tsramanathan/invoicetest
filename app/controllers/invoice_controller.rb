@@ -5,20 +5,22 @@ class InvoiceController < ApplicationController
   helper_method :sort_column, :sort_direction
 
   def index
+
+   if Rails.env.production?
        @settings = Account.get_saml_settings
 
-    #
-    if @settings.nil?
-      return redirect_to '/saml'
-    end
+      if @settings.nil?
+        return redirect_to '/saml'
+      end
 
-    # If we're viewing this unauthenticated, set our goback URL for after logging in
-    if session[:userid].nil?
-      #session[:goback_to] = request.url
-      session[:userid]=nil
-      return redirect_to '/saml'
+      # If we're viewing this unauthenticated, set our goback URL for after logging in
+      if session[:userid].nil?
+        #session[:goback_to] = request.url
+        session[:userid]=nil
+        return redirect_to '/saml'
 
-    end
+      end
+   end
 
     respond_to do |format|
       format.html # index.html.erb
