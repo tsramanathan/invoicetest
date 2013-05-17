@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92cb313b-d482-4468-b767-12c0d3ec45c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/onelogin/ruby-saml/authrequest.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/onelogin/ruby-saml/logging.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/onelogin/ruby-saml/logoutrequest.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/onelogin/ruby-saml/logoutresponse.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/onelogin/ruby-saml/metadata.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/onelogin/ruby-saml/response.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ruby-saml.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/schemas/saml20assertion_schema.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/schemas/saml20protocol_schema.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/onelogin/ruby-saml/settings.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/onelogin/ruby-saml/validation_error.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/onelogin/ruby-saml/version.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/schemas/xenc_schema.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/xml_security.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/schemas/xmldsig_schema.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/local_env.yml" afterPath="$PROJECT_DIR$/config/local_env.yml" />
     </list>
     <ignored path="invoice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +58,7 @@
     <file path="$PROJECT_DIR$/../EnvVarsTest/app/controllers/env_vars_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367864729138" ignored="false" />
     <file path="/env_vars_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367498366797" ignored="false" />
     <file path="$PROJECT_DIR$/../EnvVarsTest/config/routes.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367498493807" ignored="false" />
-    <file path="/local_env.yml" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368644262467" ignored="false" />
+    <file path="/local_env.yml" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368789863641" ignored="false" />
     <file path="/application_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368622731104" ignored="false" />
     <file path="$PROJECT_DIR$/../Nexus/config/environments/production.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367861476026" ignored="false" />
     <file path="$PROJECT_DIR$/../EnvVarsTest/app/controllers/application_controller.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1367865326872" ignored="false" />
@@ -140,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authrequest.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="authrequest.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/onelogin/ruby-saml/authrequest.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="15" column="20" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="implicit_render.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/implicit_render.rb">
+      <file leaf-file-name="local_env.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/local_env.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+            <state line="7" column="38" selection-start="211" selection-end="211" vertical-scroll-proportion="0.25609756">
               <folding />
             </state>
           </provider>
@@ -236,12 +221,12 @@
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/onelogin/ruby-saml/response.rb" />
         <option value="$PROJECT_DIR$/app/controllers/saml_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/config/local_env.yml" />
         <option value="$PROJECT_DIR$/app/models/invoice_manager.rb" />
         <option value="$PROJECT_DIR$/app/controllers/invoice_controller.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/onelogin/ruby-saml/authrequest.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/account.rb" />
+        <option value="$PROJECT_DIR$/config/local_env.yml" />
       </list>
     </option>
   </component>
@@ -335,21 +320,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invoice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invoice_prototype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -828,14 +799,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="811" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32611832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.715942" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22166428" sideWeight="0.66522366" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22166428" sideWeight="0.66522366" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2871573" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -968,13 +939,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/pdf_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_controller/metal/rescue.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="132" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0">
@@ -1075,7 +1039,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/onelogin/ruby-saml/authrequest.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="20" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/local_env.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="38" selection-start="211" selection-end="211" vertical-scroll-proportion="0.25609756">
           <folding />
         </state>
       </provider>
