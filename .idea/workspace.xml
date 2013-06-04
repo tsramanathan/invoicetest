@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92cb313b-d482-4468-b767-12c0d3ec45c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/security_roles/index.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/I000VH6FKTXJYNLTXHZ.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/I007MF5YMPPQ2W83THC.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IGU28V61B0ZXRRXXJK8.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/.last_run.json" afterPath="$PROJECT_DIR$/coverage/.last_run.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/account.rb" afterPath="$PROJECT_DIR$/app/models/account.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/invoice_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/invoice_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/invoice_manager.rb" afterPath="$PROJECT_DIR$/app/models/invoice_manager.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/local_env.yml" afterPath="$PROJECT_DIR$/config/local_env.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/pdf_manager.rb" afterPath="$PROJECT_DIR$/app/models/pdf_manager.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/saml_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/saml_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/invoice.iml" afterPath="$PROJECT_DIR$/.idea/invoice.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="invoice.iws" />
@@ -41,7 +30,7 @@
     <file path="/invoice_manager_test.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1365766880379" ignored="false" />
     <file path="/invoice_websvc_test.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366028479616" ignored="false" />
     <file path="/pdf_websvc_test.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1365770215918" ignored="false" />
-    <file path="/Gemfile" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1368027050786" ignored="false" />
+    <file path="/Gemfile" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1370353877115" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/rubymine.jar!/resources/relaxng.rng" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1369926891805" ignored="false" />
     <file path="/temp.rb" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366140533973" ignored="false" />
     <file path="/Rails invoice: development" changelist="92cb313b-d482-4468-b767-12c0d3ec45c5" time="1366141759709" ignored="false" />
@@ -147,10 +136,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local_env.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="local_env.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/local_env.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="43" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.55992144">
+            <state line="19" column="43" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="21" selection-start="524" selection-end="524" vertical-scroll-proportion="0.7367387">
               <folding />
             </state>
           </provider>
@@ -200,7 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/rexml/document.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/xml_security.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/onelogin/ruby-saml/response.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/ruby-saml-0.7.2/lib/onelogin/ruby-saml/authrequest.rb" />
@@ -216,6 +213,7 @@
         <option value="$PROJECT_DIR$/app/views/security_roles/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/saml_controller.rb" />
         <option value="$PROJECT_DIR$/config/local_env.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -934,11 +932,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="30" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/invoice_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="37" selection-start="1013" selection-end="3597" vertical-scroll-proportion="0.6136364" />
@@ -1026,7 +1019,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/local_env.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="43" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.55992144">
+        <state line="19" column="43" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="21" selection-start="524" selection-end="524" vertical-scroll-proportion="0.7367387">
           <folding />
         </state>
       </provider>
