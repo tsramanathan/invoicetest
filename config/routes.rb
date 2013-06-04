@@ -4,6 +4,7 @@ Invoice::Application.routes.draw do
 
   resources :cb_invoices
 
+  resources :security_roles
 
   get "invoice/index"
   get "pdf/index"

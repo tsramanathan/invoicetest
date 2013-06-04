@@ -6,8 +6,8 @@ class InvoiceController < ApplicationController
 
   def index
 
-   if Rails.env.production?
-       @settings = Account.get_saml_settings
+
+     @settings = Account.get_saml_settings()
 
       if @settings.nil?
         return redirect_to '/saml'
@@ -20,7 +20,7 @@ class InvoiceController < ApplicationController
         return redirect_to '/saml'
 
       end
-   end
+
 
     respond_to do |format|
       format.html # index.html.erb

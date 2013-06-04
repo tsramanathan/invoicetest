@@ -1,23 +1,34 @@
 require 'onelogin/ruby-saml/settings'
 
 class Account < ActiveRecord::Base
-  def Account.get_saml_settings
-    # this is just for testing purposes.
 
+  def Account.get_saml_settings
     # should retrieve SAML-settings based on subdomain, IP-address, NameID or similar
     settings = Onelogin::Saml::Settings.new
 
-    settings.assertion_consumer_service_url   = "http://ec2-54-227-248-218.compute-1.amazonaws.com/saml/consume"
-    settings.issuer                           = "http://ec2-54-227-248-218.compute-1.amazonaws.com/" # the name of your application
-    settings.idp_sso_target_url               = "https://cbtest.okta.com/app/template_saml_2_0/k4aberjrODWHGWIYFSXI/sso/saml"
-    #settings.idp_slo_target_url = "https://cbtest.okta.com/home/template_saml_2_0/0oa4aberjsHPFYSRBJOX/3079"
-    settings.idp_cert_fingerprint             = "02:05:79:D8:96:CC:CA:54:2F:16:E2:6E:7D:32:F3:54:95:61:89:71"
+    if Rails.env.production?
+      @assertion_consumer_service_url            =  ENV["assertion_consumer_service_url"].to_s
+      @issuer                                    =  ENV["issuer"].to_s
+      @idp_sso_target_url                        =  ENV["idp_sso_target_url"].to_s
+      @idp_cert_fingerprint                      = ENV["idp_cert_fingerprint"].to_s
 
-    #settings.idp_cert_fingerprint = "5B 74 4D EE 8B 8A 85 21 7A F0 A8 26 76 B4 83 73"
+    end
 
+    if Rails.env.development? || Rails.env.testing?
+      @assertion_consumer_service_url = ENV["assertion_consumer_service_url_dev"]
+      @issuer                         = ENV["issuer_dev"]
+      @idp_sso_target_url             = ENV["idp_sso_target_url_dev"]
+      @idp_cert_fingerprint           = ENV["idp_cert_fingerprint_dev"]
+    end
+
+    settings.assertion_consumer_service_url   = @assertion_consumer_service_url
+    settings.issuer                           = @issuer
+    settings.idp_sso_target_url               = @idp_sso_target_url
+    settings.idp_cert_fingerprint             = @idp_cert_fingerprint
     settings.name_identifier_format           = "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
-
 
     settings
   end
+
+
 end

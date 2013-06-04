@@ -10,11 +10,12 @@ class ApplicationController < ActionController::Base
   def initialize
 
     if Rails.env.development?
-      @web_svc_url = ENV["WEBSVC_URL_DEV"]
+      @web_svc_url  = ENV["WEBSVC_URL_DEV"]
 
     end
     if Rails.env.test?
-      @web_svc_url = ENV["WEBSVC_URL_DEV"]
+      @web_svc_url  = ENV["WEBSVC_URL_DEV"]
+
     end
 
     if Rails.env.production?

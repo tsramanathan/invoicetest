@@ -19,7 +19,7 @@ class SamlController < ApplicationController
 
     if response.is_valid?
       session[:userid] = response.name_id
-      redirect_to '/invoice'
+      redirect_to '/security_roles'
     else
       redirect_to :action => :fail
     end

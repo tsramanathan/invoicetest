@@ -12,6 +12,7 @@ class InvoiceManager
 
 
     options = {}
+    options.merge!(:headers => {"Authorization" => "Partner Axiom:b27C3g4Vy9"})
     if status == 'Open'
        invStatus = 'OPN'
     elsif status == 'Closed'
